@@ -19,7 +19,7 @@ WHERE Tuition_Fee >= 30,000 ;
 
 -- Adding a new record
 UPDATE tblstudent(StudentName, Birthdate, Year, MobileNo)
-VALUES (Dan, 20/4/2001, Y1S2, 0723456123);
+VALUES ('Dan', '20/4/2001', 'Y1S2', '0723456123');
 
 -- Changing student name with given id
 UPDATE tblstudent
